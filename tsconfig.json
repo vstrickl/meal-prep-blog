@@ -23,7 +23,8 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["app/*"], // Remix default alias
+      "@/*": ["app/*"]  // New alias
     },
 
     // Vite takes care of building everything, not tsc.
